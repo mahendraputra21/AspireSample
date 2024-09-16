@@ -1,0 +1,6 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@host = localhost
+@port = 7359
+
+GET https://{{host}}:{{port}}/weatherforecast
+Accept: application/json
