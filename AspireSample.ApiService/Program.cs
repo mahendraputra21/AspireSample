@@ -1,6 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
 
 // Add service defaults & Aspire components.
 builder.AddServiceDefaults();

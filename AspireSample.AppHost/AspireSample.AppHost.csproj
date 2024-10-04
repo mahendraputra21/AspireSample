@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AspireSample.ApiService\AspireSample.ApiService.csproj" />
     <ProjectReference Include="..\AspireSample.Web\AspireSample.Web.csproj" />
+    <ProjectReference Include="..\SwaggerUi.Aspire.Hosting\SwaggerUi.Aspire.Hosting.csproj" IsAspireProjectResource="false"/>
   </ItemGroup>
 
   <ItemGroup>
